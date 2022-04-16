@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="index.css"/>
+
+    <title>form page</title>
+</head>
+<body>
+    
+
+    <section class="section-2">
+        <section class="container2">
+        <form action="" class="form2"> 
+          <p id="td"> Tell us somting positive that happened to you today:</p>
+            <label for="number" class="label-class">on a scale of 1-10,how good was it? </label>
+  <input type="number" id="number"  min="1" max="10" autofocus class="label-class"required><br><br>
+ <section class="label-class" >
+  <label for="place">where did it happen?</label>
+
+  <select id="place">
+
+    <option value="on my commute">on my commute</option>
+    <option value="at work">at work</option>
+    <option value="on the street">on the street</option>
+    <option value="at home" selected>at home</option>
+    <option value="other">other</option>
+  </select>
+  </section>
+
+<section class="label-class">
+            <p>At what time of day did it happen?</p>
+  <input type="radio" id="morning" name="time" value="morning">
+  <label for="morning">morning</label><br>
+  <input type="radio" id="afternoon" name="time" value="afternoon">
+  <label for="afternoon">afternoon</label><br>
+  <input type="radio" id="evening" name="time" value="evening">
+  <label for="evening">evening</label><br>
+ </section>
+
+
+ <section class="label-class">
+
+            <p>what emotion did you experience?<br/>
+            (select all that apply)</p><br/>
+                <input type="checkbox" id="emotion1" name="emotion1" value="excited">
+                <label for="emotion1"> excited</label><br>
+                <input type="checkbox" id="emotion2" name="emotion2" value="humbled">
+                <label for="emotion2"> humbled</label><br>
+                <input type="checkbox" id="emotion3" name="emotion3" value="elated">
+                <label for="emotion3"> elated</label><br>
+                <input type="checkbox" id="emotion4" name="emotion4" value="loved">
+                <label for="emotion4"> loved</label><br>
+                <input type="checkbox" id="emotion5" name="emotion5" value="enthusiastic">
+                <label for="emotion5"> enthusiastic</label><br>
+               
+ </section>
+            <label for="massage">please describe your positive experience</label>
+            <textarea name="massage" id="massage"   cols="30" rows="10" title="enter your experience" >
+        </textarea>
+        <section class="form">
+        <input type="submit" value="submit" >
+        </section>
+        </form>
+        </section>
+
+    </section>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1000px;
+    height: 1200px;
+    background-image: url("./image0.jpg");
+    background-size:cover;
+}
+.container{
+      display: flex;
+height: 850px;
+width: 800px;
+/*border: 1px solid black;*/
+margin:auto;
+margin-top: 100px;
+box-shadow: 15px 15px 20px black;
+}
+.form ,.container2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items:center;
+
+    background: linear-gradient(rgb(66, 105, 117),rgb(5, 40, 51));
+
+}
+.form h1{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+}
+.form h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+/*write*/
+
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+
+}
+.side img{
+    width: 400px;
+    height: 850px;
+}
+.box
+{
+border:0;
+background: rgb(173, 169, 162);
+display: block;
+text-align: center;
+margin: 20px auto;
+border:3px solid rgb(2, 42, 68);
+padding: 14px 10px;
+width: 220px;
+width: 220px;
+color:rgb(8, 34, 2);
+border-style  :outset;
+border-radius: 24px;
+
+}
+.box:focus{
+    width: 270px;
+    border-color: black;
+
+}
+.form input[type="submit"]{
+    border:none;
+    width: 40%;
+    display: block;
+background-color: black;
+    text-align: center;
+    border:3px solid rgb(85, 85, 158);
+    padding: 12px 30px;
+    width: 220px;
+    color:wheat;
+    border-style  :outset;
+    border-radius: 20px;
+    transition :0.25px;
+    font-weight: bold;
+    outline: none;     
+
+}
+.form input[type="submit"]:hover{
+
+background: brown;}
+a{ font-size: 2rem;
+    color: rgb(5, 5, 37);
+    margin: 10px;
+}
+
+
+
+.section-2{
+    margin-top: 100px; ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    width: 90%;
+    max-width: 500px;
+    margin:0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 8px;
+    margin-bottom: 20px
+
+}
+.form2{
+width: 100%;
+   margin-top: 20px;
+   margin-bottom: 30px; 
+}
+.form2 input,.form2 textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border:1px solid rgba(128,128,128,0.129);
+    margin-top: 10px;
+}
+textarea{
+    resize:vertical;
+} 
+#td{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+#number{
+    width:10% ;
+}
+.label-class{
+    margin-bottom: 40px;
+}
